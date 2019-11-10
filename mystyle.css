@@ -1,0 +1,69 @@
+body {
+    /*font-family: 'Rye', cursive; */
+    /*font-family: 'Concert One', cursive;*/
+    font-family: 'Copse', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e8e8e9;
+}
+
+
+.navbar-brand {
+    font-family: 'Concert One', cursive;
+    font-size: 24pt;
+}
+
+.blockquote {
+  margin-top: 1em;
+  margin-bottom: 0.0em;
+}
+
+
+
+.quotation blockquote::before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+}
+
+.quotation blockquote::after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+}
+
+.full-height {
+    min-height: 100%;
+    height: 100%;
+}
+.work-experience-background {
+    min-height: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('work-experience.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+
+.bright-container {
+    background-color: #34343b;
+    color: #e8e8e9;
+    font-family: 'Questrial', serif;
+}
+
+.dark-container {
+    background-color: #1e1e26;
+    color: #e8e8e9;
+    font-family: 'Questrial', serif;
+}
+
+/* 
+ *
+ * Extra small <576px	Small ≥576px	Medium ≥768px	Large ≥992px	Extra large ≥1200px
+ * Max container width	None (auto)	540px	720px	960px	1140px
+ * Class prefix	.col-	.col-sm-	.col-md-	.col-lg-	.col-xl-
+ *
+ *
+ * */
