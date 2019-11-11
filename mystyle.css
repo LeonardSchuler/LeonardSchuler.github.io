@@ -21,16 +21,16 @@ a {
 }
 
 
-
-.quotation blockquote::before {
+blockquote p::before {
     content: "\f10d";
     font-family: 'Fontawesome';
 }
 
-.quotation blockquote::after {
+blockquote p::after {
     content: "\f10e";
     font-family: 'Fontawesome';
 }
+
 
 .full-height {
     min-height: 100%;
